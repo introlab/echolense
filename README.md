@@ -13,6 +13,11 @@ EchoLense is an open-source acoustic camera made by [IntRoLab](https://introlab.
 ## Assembly instructions
 
 ### Bill of material
+
+_We are not affiliated with any of the links provided below. Those are just examples of components similar to the ones we used._
+
+<div align="center">
+
 |         **Part**         | **Number** |                                              **URL**                                              |
 |:------------------------:|:----------:|:-------------------------------------------------------------------------------------------------:|
 |    3D printed housing    |      1     |               _See housing folder of this repo_       |
@@ -23,7 +28,7 @@ EchoLense is an open-source acoustic camera made by [IntRoLab](https://introlab.
 | Micro USB to DIP adapter |      1     |          [Link](https://www.amazon.ca/Adapter-Female-Connector-Converter-pinboard/dp/B0CDBP341B/)         |
 |   4-wires ribbon cable   |      1     |                                                 -                                                 |
 
-_We are not affiliated with any of the links provided above. Those are just examples of components similar to the ones we used._
+</div>
 
 ### Instructions
 1. Remove the camera's native USB connector.
