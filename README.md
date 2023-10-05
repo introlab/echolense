@@ -9,3 +9,7 @@ _Documentation release: October 5, 2023_
 
 
 EchoLense is an open-source acoustic camera made by [IntRoLab](https://introlab.3it.usherbrooke.ca/mediawiki-introlab/index.php/Main_Page). Its aim is to provide a flexible platform for the scientific community to further research in the field. It can be built with common off-the-shelf components and a 3D printer. This repo contains the STL files to build one as well as assembly instructions. We've also provided 1000 room impulse responses (RIRs) that we measured with the device and you'll find python scripts to measure your own RIRs if necessary.
+
+## Assembly instructions
+
+## Room impulse responses
