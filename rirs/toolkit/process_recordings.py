@@ -13,8 +13,6 @@ from .utils import audio2float32
 from .utils import ess_inverse_filter
 from .utils import save_rir_in_pdf
 
-BEFORE_PEAK = 192
-AFTER_PEAK = 16000
 # Sine sweep
 t0 = 0.0
 t1 = 10.0
