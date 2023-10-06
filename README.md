@@ -70,3 +70,30 @@ _We are not affiliated with any of the links provided below. Those are just exam
 8. Close the housing and secure it using the last M2x6mm screws and the holes on the sides.
 
 ## Room impulse responses
+
+### The "rirs" folder
+
+To measure room impulse responses, we use the technique proposed in this paper:
+Farina, Angelo. (2000). Simultaneous Measurement of Impulse Response and Distortion With a Swept-Sine Technique. 
+
+In "rirs", you'll find three subfolders...
+
+1. The "recordings" folder contains the exponential sine sweeps (ESS) recordings.
+2. The "processings" folder contains the uncut room impulse responses obtained from the recordings.
+3. The "toolkit" folder contains mainly two python scripts. The first one is `record.py`. It is used to produce and record ESSs and save them in the "recordings" folder. The second one is `process_recordings.py` and simply extracts the RIRs from the "recordings" folder and save them in the "processings" folder.
+
+### Record new ESS
+1. We recommend checking the parameters at the top of the `record.py` file to make sure that it fits your needs.
+2. Launch the recording script:
+   ```bash
+   cd rirs
+   python -m toolkit.record -o <output_folder> # output_folder will be created in the recordings directory
+   ```
+3. Start a recording by pressing the space bar on your keyboard.
+4. Delete the last recording by pressing the "x" key on your keyboard.
+
+### Extract RIRs from the recordings
+ ```bash
+ cd rirs
+ python -m toolkit.process_recordings
+ ```
