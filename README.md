@@ -80,7 +80,7 @@ In "rirs", you'll find three subfolders...
 2. The "processings" folder contains the uncut RIRs obtained from the recordings.
 3. The "toolkit" folder contains mainly two python scripts. The first one is `record.py`. It is used to produce and record ESSs and save them in the "recordings" folder. The second one is `process_recordings.py` and simply extracts the RIRs from the "recordings" folder and saves them in the "processings" folder.
 
-### Record new ESS
+### Record new ESSs
 1. Check the parameters at the top of the `record.py` file to make sure that they fit your needs.
 2. Launch the recording script:
 ```bash
